@@ -185,6 +185,10 @@ fieldset[disabled] .btn-xl.focus {
   color: #172d54;
 }
 
+.navbar-custom .navbar-brand:hover {
+  transform: scale(1.1);
+}
+
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.98);
 }
@@ -294,6 +298,14 @@ header .intro-text .intro-heading {
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
+}
+
+header .intro-text .fa-arrow-circle-o-down {
+  transition: all 0.3s ease;
+}
+
+header .intro-text .fa-arrow-circle-o-down:hover {
+  transform: scale(1.1);
 }
 
 @media (min-width: 768px) {
@@ -614,6 +626,17 @@ section h3.section-subheading {
 .team-member {
   text-align: center;
   margin-bottom: 50px;
+}
+
+.team-member__img {
+  margin: 0 auto;
+  width: 269px;
+  height: 269px;
+  border: 7px solid white;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .team-member img {
