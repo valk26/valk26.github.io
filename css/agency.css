@@ -654,6 +654,10 @@ section h3.section-subheading {
   margin-top: 0;
 }
 
+aside.clients {
+  padding-top: 100px;
+}
+
 aside.clients img {
   margin: 50px auto;
 }
