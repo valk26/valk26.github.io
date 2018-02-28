@@ -631,14 +631,11 @@ aside.clients img {
 }
 
 section#contact {
-  background-color: #222222;
-  background-image: url("../img/map-image.png");
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #fff;
 }
 
 section#contact .section-heading {
-  color: white;
+  color: #555555;
 }
 
 section#contact .form-group {

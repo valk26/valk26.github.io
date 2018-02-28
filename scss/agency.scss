@@ -535,12 +535,9 @@ aside.clients {
 // Contact Section
 
 section#contact {
-    background-color: $gray-darker;
-    background-image: url('../img/map-image.png');
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: $white;
     .section-heading {
-        color: white;
+        color: $gray;
     }
     .form-group {
         margin-bottom: 25px;
