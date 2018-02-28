@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: $gray-darker;
     border-color: transparent;
     .navbar-brand {
+        text-shadow: 0px 0px 5px rgb(0, 0, 0);
         color: $theme-primary;
         @include script-font;
         &:hover,
@@ -114,10 +115,13 @@ h1, h2, h3, h4, h5, h6 {
                 font-weight: 400;
                 letter-spacing: 1px;
                 color: white;
+                text-shadow: 0px 0px 5px rgb(0, 0, 0);
+                transition: all 0.3s ease;
                 &:hover,
                 &:focus {
                     color: $theme-primary;
                     outline: none;
+                    text-shadow: none;
                 }
             }
         }
@@ -177,6 +181,8 @@ header {
     .intro-text {
         padding-top: 100px;
         padding-bottom: 50px;
+        text-shadow: 0px 0px 5px rgb(0, 0, 0);
+
         .intro-lead-in {
             @include serif-font;
             font-style: italic;
