@@ -610,6 +610,11 @@ section#contact {
     .text-danger {
         color: $theme-danger;
     }
+
+    iframe {
+        width: 100%;
+        height: 495px;
+    }
 }
 
 // Footer
